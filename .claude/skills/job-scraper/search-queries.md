@@ -10,66 +10,70 @@ The `site:` query templates in this file are the **WebSearch fallback** — for 
 
 ## Search Sites
 
-Primary (your market's job boards - scaffold one with `/add-portal`):
-- **[YOUR_JOB_BOARD]** - your market's largest general job board
-- **linkedin.com/jobs** - LinkedIn job listings (filter: [YOUR_COUNTRY] / [YOUR_CITY]); also covered by `linkedin-search` CLI
-- **[YOUR_INDUSTRY_JOB_BOARD]** - a niche/industry board for your field (optional)
-- **[YOUR_ADDITIONAL_JOB_BOARD]** - another major board for your market (optional)
+Primary (mercado objetivo: Colombia - considera scaffoldear con `/add-portal` para búsqueda directa vía CLI):
+- **elempleo.com** - uno de los portales de empleo más grandes de Colombia
+- **linkedin.com/jobs** - LinkedIn job listings (filter: Colombia / Bogotá); ya cubierto por el CLI `linkedin-search`
+- **computrabajo.com.co** - portal de empleo masivo en Colombia, fuerte en roles administrativos/operativos
+- **magneto365.com** - portal de empleo colombiano, buena cobertura en salud y BPO
 
-Secondary (company career pages via Google):
-- Direct Google searches with `site:` filters for known target companies
+Secondary (páginas de carreras de empresas vía Google):
+- Búsquedas directas en Google con filtros `site:` para EPS/IPS y empresas objetivo (ej. site:sura.com, site:compensar.com, site:nuevaeps.com.co)
 
 ## Query Categories
 
 Queries are grouped by priority. Each query should be combined with your location terms (e.g. your city, region, or metro area) where the site supports it.
 
-### Priority 1: [YOUR_PRIMARY_ROLE_TYPE]
+### Priority 1: Analista de Datos / BI
 
 These match your strongest and most desired career direction.
 
 ```
-site:[YOUR_JOB_BOARD] "[YOUR_PRIMARY_JOB_TITLE]" [YOUR_CITY]
-site:[YOUR_JOB_BOARD] "[YOUR_KEY_SKILL]" [YOUR_CITY]
-site:linkedin.com/jobs "[YOUR_PRIMARY_JOB_TITLE]" [YOUR_COUNTRY]
+site:elempleo.com "analista de datos" Bogotá
+site:elempleo.com "analista Power BI" Bogotá
+site:computrabajo.com.co "analista BI" OR "business intelligence" Bogotá
+site:linkedin.com/jobs "analista de datos" Colombia
+site:linkedin.com/jobs "Power BI" analista Colombia
 ```
 
-### Priority 2: [YOUR_DOMAIN_EXPERTISE]
+### Priority 2: PQRS / Servicio al cliente en salud
 
 These match your domain expertise.
 
 ```
-site:[YOUR_JOB_BOARD] [YOUR_DOMAIN_KEYWORD_1] [YOUR_CITY] OR [YOUR_REGION]
-site:[YOUR_JOB_BOARD] [YOUR_DOMAIN_KEYWORD_2] [YOUR_COUNTRY]
-site:linkedin.com/jobs [YOUR_DOMAIN_KEYWORD_1] [YOUR_CITY] [YOUR_COUNTRY]
+site:elempleo.com "analista de PQRS" Bogotá OR Colombia
+site:computrabajo.com.co "analista PQRS" salud Bogotá
+site:magneto365.com PQRS salud Bogotá
+site:linkedin.com/jobs "PQRS" salud Colombia
 ```
 
-### Priority 3: [YOUR_ADJACENT_ROLE_TYPE]
+### Priority 3: Roles adyacentes (coordinación / calidad / auditoría en salud)
 
 Adjacent roles you could pivot into.
 
 ```
-site:[YOUR_JOB_BOARD] "[YOUR_ADJACENT_TITLE_1]" [YOUR_KEY_SKILL] [YOUR_CITY]
-site:[YOUR_JOB_BOARD] "[YOUR_ADJACENT_TITLE_2]" [YOUR_KEY_SKILL] [YOUR_CITY]
+site:elempleo.com "coordinador PQRS" Power BI Bogotá
+site:elempleo.com "analista de calidad" salud Bogotá
+site:computrabajo.com.co "auditor en salud" Bogotá
 ```
 
-### Priority 4: Broader Technical / Consulting
+### Priority 4: Analista de Requerimientos / Business Analyst
 
-Wider net for general technical roles.
+Wider net for general analyst/business roles.
 
 ```
-site:[YOUR_JOB_BOARD] [YOUR_KEY_SKILL] developer [YOUR_CITY]
-site:linkedin.com/jobs "[YOUR_KEY_SKILL] developer" [YOUR_CITY]
-site:[YOUR_JOB_BOARD] "technical consultant" [YOUR_DOMAIN] [YOUR_CITY]
+site:elempleo.com "analista de requerimientos" Bogotá
+site:linkedin.com/jobs "business analyst" Excel Power BI Colombia
+site:computrabajo.com.co "analista de procesos" Bogotá
 ```
 
 ## Location Filter
 
 When evaluating results, verify the job location is within reasonable commute distance from your home. Define acceptable areas:
-- [YOUR_CITY] and surrounding areas
-- [ACCEPTABLE_AREA_1]
-- [ACCEPTABLE_AREA_2]
-- [BORDERLINE_AREA] (borderline - ~X min by transit)
-- [TOO_FAR_AREA] (too far)
+- Bogotá y área metropolitana
+- Remoto (Colombia o LatAm) - siempre PASS independientemente de la ciudad
+- Cundinamarca cercana (ej. Chía, Soacha, Fusagasugá) - aceptable si es híbrido con pocos días presenciales
+- Otras ciudades de Colombia con reubicación - solo si la oferta la financia o es explícitamente atractiva
+- Fuera de Colombia sin modalidad remota - descartar (nivel de inglés aún básico + sin plan de reubicación confirmado)
 
 ## Date Filter
 

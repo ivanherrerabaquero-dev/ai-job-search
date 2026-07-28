@@ -4,51 +4,52 @@ framework_version: 1.0.0
 
 # Behavioral Profile
 
-<!-- SETUP: This file is populated by running /setup -->
-<!-- You can use results from PI, DISC, Myers-Briggs, StrengthsFinder, or a self-assessment -->
+<!-- No hay resultado de test PI/DISC/Myers-Briggs disponible. Este perfil es una autoevaluación
+inferida a partir de los logros y responsabilidades descritos en el CV. Revísalo y ajústalo -
+un test formal (ej. 16Personalities gratuito) lo haría más preciso. -->
 
 ## Overview
-[YOUR_NAME]'s behavioral assessment identifies them as a **[PROFILE_TYPE]** pattern. [1-2 SENTENCE_SUMMARY].
+El perfil de Iván lo identifica como un patrón de **analista-operador orientado a resultados**: combina el gusto por convertir datos en decisiones con la disciplina de gestionar equipos y procesos bajo presión regulatoria (SLA, normatividad de salud).
 
 ## Core Behavioral Drives
 
 | Drive | Level | Meaning |
 |-------|-------|---------|
-| [DRIVE_1] | [LEVEL] | [DESCRIPTION] |
-| [DRIVE_2] | [LEVEL] | [DESCRIPTION] |
-| [DRIVE_3] | [LEVEL] | [DESCRIPTION] |
-| [DRIVE_4] | [LEVEL] | [DESCRIPTION] |
+| Orientación a datos | Alto | Prefiere decidir con evidencia (dashboards, KPI) antes que por intuición |
+| Disciplina de proceso | Alto | Cómodo en entornos regulados con reglas y SLA estrictos |
+| Liderazgo de equipo | Medio-Alto | Ha coordinado y supervisado auxiliares, asignando y verificando trabajo |
+| Autonomía | Medio | Ejecuta con independencia una vez el objetivo/KPI está claro |
 
 ## Strongest Behaviors
-- **[BEHAVIOR_1]:** [DESCRIPTION]
-- **[BEHAVIOR_2]:** [DESCRIPTION]
-- **[BEHAVIOR_3]:** [DESCRIPTION]
+- **Mejora continua basada en datos:** identifica causas raíz en volúmenes de PQRS y diseña acciones que reducen el problema de forma medible (-35%)
+- **Gestión bajo presión de tiempos:** prioriza casos complejos (tutelas) sin sacrificar cumplimiento normativo
+- **Articulación entre áreas:** consolida respuestas entre equipos para cerrar casos correctamente
 
 ## How You Work Best
-- [ENVIRONMENT_PREFERENCE_1]
-- [ENVIRONMENT_PREFERENCE_2]
-- [ENVIRONMENT_PREFERENCE_3]
+- Con objetivos y KPI claros, y libertad para proponer cómo alcanzarlos
+- En equipos que valoran la evidencia y los dashboards por encima de la opinión
+- En entornos estructurados (salud, regulados) donde el proceso importa tanto como el resultado
 
 ## Growth Areas (frame positively in applications)
-- **[AREA_1]:** [HOW_TO_FRAME_IT_POSITIVELY]
-- **[AREA_2]:** [HOW_TO_FRAME_IT_POSITIVELY]
+- **Inglés básico:** en desarrollo activo; posicionar como candidato en crecimiento para roles donde el inglés no sea barrera de entrada inmediata
+- **Herramientas técnicas más allá de Excel/Power BI (SQL, Python):** interés genuino respaldado por el Diplomado en IA (Latinpyme, 2024); enmarcar como siguiente paso natural de su especialización en datos
 
 ## Mapping to Job Posting Language
 
-When a job posting mentions these keywords, it's a **strong behavioral fit**:
-- [KEYWORD_OR_PHRASE_THAT_MATCHES_YOUR_STYLE]
-- [ANOTHER_KEYWORD]
+Cuando una oferta menciona estas palabras clave, es un **fuerte match conductual**:
+- "toma de decisiones basada en datos", "mejora continua", "cumplimiento de SLA/KPI"
+- "gestión de PQRS/tutelas", "entornos regulados", "coordinación de equipos"
 
-When a job posting mentions these, flag as **potential friction** (not deal-breaker):
-- [KEYWORD_OR_PHRASE_THAT_MIGHT_CLASH]
-- [ANOTHER_KEYWORD]
+Cuando una oferta menciona esto, márcalo como **posible fricción** (no descarte):
+- "alto dominio de inglés" / "inglés avanzado excluyente"
+- Roles puramente de desarrollo de software (sin componente de análisis/negocio)
 
 ## Management Style Preferences
-- [WHAT_MANAGEMENT_STYLE_WORKS_FOR_YOU]
-- [WHAT_DOESN'T_WORK]
+- Funciona bien con líderes que fijan el objetivo/KPI y dejan margen sobre el cómo
+- Prefiere feedback directo y basado en datos, no ambiguo
 
 ## Using This in Applications
-- **Cover letters:** [HOW_TO_WEAVE_IN_BEHAVIORAL_STRENGTHS]
-- **CV:** [WHAT_TO_EMPHASIZE]
-- **Interviews:** [WHAT_STAR_EXAMPLES_TO_USE]
-- **Don't overstate:** [WHAT_NOT_TO_CLAIM]
+- **Cover letters:** enfatizar el resultado cuantificado (-35% en PQRS) como prueba de la mentalidad de mejora continua
+- **CV:** liderar con Power BI/Excel + dominio del negocio de salud (PQRS, tutelas, SGSSS) como combinación diferencial
+- **Interviews:** usar el ejemplo de reducción de PQRS y el de priorización de tutelas como historias STAR centrales
+- **Don't overstate:** no reclamar dominio de SQL/Python ni inglés intermedio/avanzado - son áreas en desarrollo, no fortalezas actuales

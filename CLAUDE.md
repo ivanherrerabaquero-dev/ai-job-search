@@ -1,10 +1,7 @@
-# Job Application Assistant for [YOUR_NAME]
-
-<!-- SETUP: This file is populated by running /setup -->
-<!-- After running /setup, all [PLACEHOLDER] tokens will be replaced with your actual information -->
+# Job Application Assistant for Iván Santiago Herrera Baquero
 
 ## Role
-This repo is a job application workspace. Claude acts as a career advisor and application assistant for [YOUR_NAME], helping with:
+This repo is a job application workspace. Claude acts as a career advisor and application assistant for Iván Santiago Herrera Baquero, helping with:
 1. **Job fit evaluation** - Assess job postings against your profile (skills, experience, behavioral traits)
 2. **CV tailoring** - Adapt existing CV templates (LaTeX/moderncv) to target specific roles
 3. **Cover letter writing** - Draft targeted cover letters using existing templates (LaTeX)
@@ -13,70 +10,69 @@ This repo is a job application workspace. Claude acts as a career advisor and ap
 
 ## Candidate Profile
 
-<!-- This section is auto-populated by /setup. You can also fill it in manually. -->
-
 ### Identity
-- **Name:** [YOUR_NAME]
-- **Location:** [YOUR_CITY], [YOUR_COUNTRY] ([YOUR_COMMUTE_CONSTRAINTS])
-- **Languages:** [YOUR_LANGUAGES]
-- **CV language:** [YOUR_CV_LANGUAGE] <!-- English unless your market expects otherwise; /setup asks -->
+- **Name:** Iván Santiago Herrera Baquero
+- **Location:** Bogotá, Cundinamarca, Colombia (abierto a remoto/híbrido; presencial dentro de Bogotá)
+- **Languages:** Español (nativo), Inglés (básico)
+- **CV language:** Español <!-- mercado objetivo es Colombia; inglés aún básico -->
 
-- **Status:** [YOUR_EMPLOYMENT_STATUS]
-- **LinkedIn headline:** "[YOUR_LINKEDIN_HEADLINE]"
+- **Status:** Empleado actualmente (Analista de Requerimientos en Famisanar desde may 2025) - buscando activamente nuevas oportunidades
+- **LinkedIn:** https://www.linkedin.com/in/ivan-santiago-herrera-baquero-523385204/
+- **LinkedIn headline:** "[PENDIENTE: pega aquí tu titular de LinkedIn tal como aparece en tu perfil]"
 
 ### Education
-<!-- List your degrees, most recent first -->
-- **[DEGREE_LEVEL] in [FIELD]** ([YEAR_START]-[YEAR_END]) - [INSTITUTION]
-  - Thesis: "[THESIS_TITLE]"
-  - Topics: [KEY_TOPICS]
+- **Administración de Empresas** (2023) - Fundación Universitaria del Área Andina
+- **Técnico en Gestión del Talento Humano** (2020) - SENA
+- **Técnico en Contabilización y Finanzas** (2017) - SENA
 
 ### Professional Experience
-<!-- List your roles, most recent first -->
-- **[JOB_TITLE]** ([START_DATE] - [END_DATE]) - **[COMPANY]** ([LOCATION])
-  - [KEY_RESPONSIBILITY_1]
-  - [KEY_RESPONSIBILITY_2]
-  - [KEY_ACHIEVEMENT]
+- **Analista de Requerimientos** (May 2025 - Actualidad) - **Famisanar** (Bogotá, Colombia)
+  - Lideré el análisis de datos de PQRS y servicios de salud con Excel y Power BI para la toma de decisiones
+  - Coordiné y supervisé auxiliares, gestionando requerimientos y garantizando cumplimiento de SLA
+  - Reduje en ~35% el volumen de PQRS mediante mejoras basadas en datos
+  - Analicé y prioricé casos complejos (tutelas) asegurando resolución oportuna y cumplimiento normativo
+
+- **Analista de Redes Sociales** (Feb 2021 - May 2024) - **Famisanar** (Bogotá, Colombia)
+  - Gestioné PQRS en canales digitales y construí dashboards de indicadores de servicio y desempeño
+  - Analicé datos de interacción para mejorar la calidad del servicio y apoyar generación de leads
 
 ### Technical Skills
-- **Primary:** [YOUR_PRIMARY_SKILLS]
-- **Secondary:** [YOUR_SECONDARY_SKILLS]
-- **Domain:** [YOUR_DOMAIN_EXPERTISE]
-- **Software:** [YOUR_TOOLS_AND_SOFTWARE]
+- **Primary:** Power BI (dashboards, KPI, modelado de datos), Excel avanzado, análisis de datos
+- **Secondary:** Reporting, visualización de datos, gestión de SLA, colaboración con stakeholders
+- **Domain:** Sector salud colombiano - SGSSS, PQRS, tutelas, normatividad, Manual ISS, auditoría en salud
+- **Software:** Excel, Power BI
 
 ### Certifications
-<!-- List relevant certifications with dates -->
-- **[CERTIFICATION_NAME]** - [HOURS]h - completed [DATE]
+- **Power BI** - Udemy - completado abr 2024
+- **Excel Básico e Intermedio** - Udemy - completado ene 2022
+- **Diplomado en Inteligencia Artificial** - Latinpyme - completado jul 2024
+- **Formación en Auditoría en Salud** - Fundación Universitaria del Área Andina - completado feb 2024
 
 ### Publications
-<!-- List peer-reviewed publications, if any -->
-- [AUTHOR_LIST] ([YEAR]). [TITLE]. [JOURNAL].
+- N/A
 
 ### Awards
-<!-- List relevant awards, hackathons, competitions -->
-- [AWARD_NAME] - [EVENT] ([YEAR])
+- N/A
 
 ### Behavioral Profile
-<!-- Your behavioral assessment results (PI, DISC, Myers-Briggs, or self-assessment) -->
-- **[TRAIT_1]** - [DESCRIPTION]
-- **[TRAIT_2]** - [DESCRIPTION]
-- **Strengths:** [YOUR_STRENGTHS]
-- **Growth areas:** [YOUR_GROWTH_AREAS]
-- **Thrives in:** [YOUR_IDEAL_ENVIRONMENT]
+<!-- Autoevaluación inicial inferida del CV; no hay resultado de test PI/DISC. Ajustar libremente. -->
+- **Orientado a datos y resultados** - traduce análisis en decisiones y mejoras medibles (ej. -35% en volumen de PQRS)
+- **Liderazgo operativo** - coordina y supervisa equipos en entornos regulados con SLA estrictos
+- **Strengths:** análisis y visualización de datos, gestión de procesos bajo presión regulatoria, comunicación con múltiples áreas
+- **Growth areas:** inglés (nivel básico, en desarrollo), profundizar en herramientas de datos más allá de Excel/Power BI (SQL, Python)
+- **Thrives in:** entornos estructurados y regulados, con metas claras (KPI/SLA) y espacio para proponer mejoras de proceso
 
 ### What Excites You
-<!-- What motivates you professionally -->
-- [PASSION_1]
-- [PASSION_2]
+- Convertir datos operativos en decisiones que reducen tiempos de respuesta e insatisfacción del usuario
+- Construir dashboards y KPI que dan visibilidad real a un equipo u organización
 
 ### Target Sectors
-<!-- Industries and companies you're targeting -->
-- [SECTOR_1]: [EXAMPLE_COMPANIES]
-- [SECTOR_2]: [EXAMPLE_COMPANIES]
+- Salud (EPS/IPS): Famisanar, Sura, Compensar, Nueva EPS, Salud Total
+- BI/Analítica de datos en cualquier sector regulado (seguros, banca): Sura, Bancolombia, Seguros Bolívar
 
 ### Deal-breakers
-<!-- Hard constraints on job search -->
-- [DEALBREAKER_1]
-- [DEALBREAKER_2]
+- [PENDIENTE: define un rango salarial mínimo aceptable]
+- [PENDIENTE: define si aceptas reubicación fuera de Bogotá o solo remoto/Bogotá]
 
 ## Repo Structure
 - `cv/` - LaTeX CV variants (moderncv template, banking style)

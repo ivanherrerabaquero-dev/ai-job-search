@@ -44,9 +44,9 @@ How well do the required/preferred skills align with the candidate's capabilitie
 | 40-59 | Partial match, significant upskilling needed |
 | 0-39 | Fundamental mismatch |
 
-**Strong match areas:** [YOUR_PRIMARY_SKILLS]
-**Moderate match areas:** [YOUR_SECONDARY_SKILLS]
-**Weak match areas:** [SKILLS_YOU_LACK]
+**Strong match areas:** Power BI (dashboards, KPI), Excel avanzado, análisis de datos, gestión de PQRS/tutelas en salud
+**Moderate match areas:** Reporting, gestión de SLA, coordinación de equipos, auditoría en salud
+**Weak match areas:** SQL, Python, herramientas de datos más allá de Excel/Power BI, inglés intermedio/avanzado
 
 ### 2. Experience Match (0-100)
 Does work history align with what they're looking for?
@@ -58,9 +58,9 @@ Does work history align with what they're looking for?
 | 40-59 | Adjacent experience, would need to make the case |
 | 0-39 | Unrelated experience |
 
-**Strong:** [YOUR_DIRECT_EXPERIENCE_DOMAINS]
-**Moderate:** [YOUR_ADJACENT_EXPERIENCE]
-**Entry-level:** [ROLES_WITH_LIMITED_EXPERIENCE]
+**Strong:** Analista de Datos/BI en salud, Analista de PQRS/Servicio al cliente en salud, Analista de Requerimientos
+**Moderate:** Analista de Datos/BI en otros sectores regulados (seguros, banca), Coordinador/Líder de PQRS o experiencia de cliente
+**Entry-level:** Data Analyst con foco técnico (SQL/Python), Analista de Calidad en salud, roles de Auditoría en salud
 
 ### 3. Behavioral/Culture Fit (0-100)
 Does the role and company culture match the behavioral profile?
@@ -91,19 +91,19 @@ Does this role advance career goals and contain tasks that energize?
 | 0-39 | Dead end or backwards step |
 
 **Career goals:**
-- [YOUR_CAREER_GOAL_1]
-- [YOUR_CAREER_GOAL_2]
-- [YOUR_CAREER_GOAL_3]
+- Consolidarse como Analista de Datos/BI, ampliando de Excel/Power BI hacia SQL y análisis más técnico
+- Crecer hacia un rol de mayor seniority: Analista Senior o Coordinador de BI/PQRS/Experiencia del Cliente
+- Mantenerse en o cerca del sector salud, donde ya tiene profundidad de negocio (SGSSS, PQRS, tutelas), o dar el salto a otro sector regulado con analítica fuerte
 
 **Motivation filter:** Evaluate not just whether you *can* do the tasks, but whether the tasks will *energize* you. Consider:
-- Tasks that energize: [YOUR_ENERGIZING_TASKS]
-- Tasks that drain: [YOUR_DRAINING_TASKS]
-- Non-task factors: leadership style, department culture, company values, degree of autonomy
+- Tasks that energize: construir dashboards que resuelven un problema real, encontrar la causa raíz de un indicador que no cumple, liderar mejoras que se ven reflejadas en números
+- Tasks that drain: tareas puramente administrativas/repetitivas sin componente de análisis, roles sin visibilidad sobre el impacto del propio trabajo
+- Non-task factors: liderazgo que da autonomía sobre el "cómo", cultura orientada a datos, empresa con procesos claros
 
 **Life situation alignment:** Consider personal constraints:
-- **Security**: [YOUR_FINANCIAL_SITUATION_CONTEXT]
-- **Flexibility**: [YOUR_SCHEDULE_CONSTRAINTS]
-- **Professional development**: [YOUR_GROWTH_PRIORITIES]
+- **Security**: actualmente empleado (Famisanar); la búsqueda es para mejorar posición/condiciones, no por necesidad urgente - [PENDIENTE: confirmar si esto sigue siendo así]
+- **Flexibility**: radicado en Bogotá; prefiere remoto/híbrido pero abierto a presencial en la ciudad
+- **Professional development**: prioriza roles que le den exposición a herramientas de datos más allá de Excel/Power BI (SQL, Python, otras plataformas de BI)
 
 ### 6. Salary Benchmark (Optional)
 

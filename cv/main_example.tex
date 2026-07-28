@@ -1,18 +1,17 @@
-%% Example CV - [YOUR_NAME]
-%% Comprehensive overview of all competencies, experience, and achievements.
-%% Use as a master reference when tailoring role-specific CVs.
+%% CV maestro - Iván Santiago Herrera Baquero
+%% Referencia completa de competencias, experiencia y logros.
+%% Usar como fuente al construir CVs específicos por rol (main_<empresa>_<rol>.tex).
 %%
-%% SETUP: Run /setup to populate this with your actual information.
-%% Compile with: lualatex main_example.tex
-%% (pdflatex often fails on modern MiKTeX with fontawesome5 font-expansion errors.)
+%% Compilar con: lualatex main_example.tex
+%% (pdflatex suele fallar en instalaciones MiKTeX modernas por errores de font-expansion con fontawesome5.)
 
 \documentclass[11pt,a4paper,sans]{moderncv}
 \moderncvstyle{banking}
 \moderncvcolor{blue}
 
-% Force both first and last name AND section headings to render in moderncv
-% blue (color1). Default banking on lualatex+MiKTeX leaves these black, which
-% looks inconsistent with the rest of the blue accent scheme.
+% Fuerza nombre/apellido y encabezados de sección a color1 (azul) - los defaults
+% de banking en lualatex+MiKTeX quedan en negro, lo cual desentona con el resto
+% del esquema de color azul.
 \renewcommand*{\firstnamestyle}[1]{{\fontsize{34}{36}\bfseries\upshape\color{color1}#1}}
 \renewcommand*{\lastnamestyle}[1]{{\fontsize{34}{36}\bfseries\upshape\color{color1}#1}}
 \renewcommand*{\sectionstyle}[1]{{\sectionfont\color{color1}#1}}
@@ -24,146 +23,163 @@
     linkcolor=blue,
     filecolor=magenta,
     urlcolor=blue,
-    pdftitle={[YOUR_NAME] - CV},
+    pdftitle={Iván Santiago Herrera Baquero - CV},
     pdfpagemode=FullScreen,
 }
 \usepackage[scale=0.80]{geometry}
 \usepackage{import}
+\usepackage{needspace}
 
-% personal data
-\name{[First]}{[Last]}
-\address{[Your Address, City, Country]}{}{}
-\phone[mobile]{[+XX XXXXXXXXXX]}
-\email{[your.email@example.com]}
-\extrainfo{\href{[https://linkedin.com/in/your-profile]}{LinkedIn}, \href{[https://github.com/your-username]}{GitHub}}
+% Datos personales
+\name{Iván Santiago}{Herrera Baquero}
+\address{Bogotá, Colombia}{}{}
+\phone[mobile]{+57\ 302\ 314\ 6687}
+\email{santiago.herrera0000@gmail.com}
+\extrainfo{\href{https://www.linkedin.com/in/ivan-santiago-herrera-baquero-523385204/}{LinkedIn}}
 
 \begin{document}
 
 \makecvtitle
 
 % ============================================================
-%     PROFILE STATEMENT
+%     PERFIL
 % ============================================================
 
 \vspace{6pt}
-\small{[Write a 3-5 line profile statement tailored to the role you're applying for. Focus on what makes you uniquely qualified. Example: "Data scientist with a PhD in [field] and X years of industry experience. Combines deep domain expertise in [domain] with strong applied machine learning and Python development skills. Experienced in developing end-to-end ML pipelines, from data ingestion to stakeholder-facing dashboards."]}
+\small{Administrador de Empresas con experiencia en análisis de datos y gestión operativa en el sector salud. Especializado en Excel y Power BI para la construcción de dashboards, seguimiento de KPI y análisis de PQRS. Experiencia liderando equipos, gestionando requerimientos y optimizando procesos en entornos regulados, con foco en la toma de decisiones basada en datos y el cumplimiento de SLA.}
 
 % ============================================================
-%     CORE COMPETENCIES
+%     COMPETENCIAS CLAVE
 % ============================================================
 
-\section{Core Competencies}
+\section{Competencias Clave}
 \vspace{1pt}
 \begin{itemize}
 
-\item \textbf{[Skill Category 1]}: [Specific skills, frameworks, tools. Be concrete.]
+\item \textbf{Power BI}: construcción de dashboards, modelado de datos y seguimiento de KPI para la toma de decisiones.
 
-\item \textbf{[Skill Category 2]}: [Specific skills, frameworks, tools.]
+\item \textbf{Excel avanzado}: análisis de datos, automatización de reportes y herramientas administrativas.
 
-\item \textbf{[Skill Category 3]}: [Specific skills, frameworks, tools.]
+\item \textbf{Gestión de PQRS y tutelas}: priorización de casos complejos, cumplimiento de SLA y normatividad de salud (SGSSS, Manual ISS).
 
-\item \textbf{[Skill Category 4]}: [Domain expertise, methods, approaches.]
+\item \textbf{Liderazgo operativo}: coordinación y supervisión de equipos, asignación y verificación de requerimientos.
 
-\item \textbf{[Skill Category 5]}: [Tools, platforms, software.]
+\item \textbf{Mejora de procesos basada en datos}: identificación de causas raíz y diseño de acciones correctivas medibles.
+
+\item \textbf{Auditoría en salud}: conocimiento normativo aplicado a la gestión de calidad del servicio.
 
 \end{itemize}
 
 % ============================================================
-%     PROFESSIONAL EXPERIENCE
+%     EXPERIENCIA PROFESIONAL
 % ============================================================
 
-\section{Professional Experience}
+\section{Experiencia Profesional}
 \vspace{3pt}
 \begin{itemize}
 
-% --- Most Recent Role ---
-\item{\cventry{[YYYY--Present]}{[Job Title]}{[Company]}{[City, Country]}{}{\vspace{1pt}
+% --- Rol más reciente ---
+\needspace{5\baselineskip}
+\item{\cventry{2025--Actualidad}{Analista de Requerimientos}{Famisanar}{Bogotá, Colombia}{}{\vspace{1pt}
 \begin{itemize}
-    \item [Achievement or responsibility 1 - be specific, use numbers where possible]
-    \item [Achievement or responsibility 2]
-    \item [Achievement or responsibility 3]
-    \item [Achievement or responsibility 4]
+    \item Lideré el análisis de datos de PQRS y servicios de salud usando Excel y Power BI, generando insights para la toma de decisiones
+    \item Coordiné y supervisé auxiliares, gestionando requerimientos y asegurando cumplimiento de SLA y tiempos de respuesta
+    \item Desarrollé dashboards y KPI, mejorando tiempos de atención y reduciendo vencimientos
+    \item Implementé mejoras basadas en datos, reduciendo en aproximadamente 35\% el volumen de PQRS
+    \item Analicé y prioricé casos complejos (tutelas), garantizando resolución oportuna y cumplimiento normativo
 \end{itemize}}}
 
 \vspace{3pt}
 
-% --- Previous Role ---
-\item{\cventry{[YYYY--YYYY]}{[Job Title]}{[Company]}{[City, Country]}{}{\vspace{1pt}
+% --- Rol anterior ---
+\needspace{5\baselineskip}
+\item{\cventry{2021--2024}{Analista de Redes Sociales}{Famisanar}{Bogotá, Colombia}{}{\vspace{1pt}
 \begin{itemize}
-    \item [Achievement or responsibility 1]
-    \item [Achievement or responsibility 2]
-    \item [Achievement or responsibility 3]
+    \item Gestioné PQRS en canales digitales, asegurando cumplimiento de SLA
+    \item Construí dashboards para seguimiento de indicadores de servicio y desempeño
+    \item Analicé datos de interacción en Excel para mejorar la calidad del servicio y apoyar la generación de leads
 \end{itemize}}}
 
 \vspace{3pt}
 
-% --- Earlier Role ---
-\item{\cventry{[YYYY--YYYY]}{[Job Title]}{[Company]}{[City, Country]}{}{\vspace{1pt}
+% --- Roles anteriores ---
+\needspace{5\baselineskip}
+\item{\cventry{2019--2020}{Pasante Administrativo}{Famisanar}{Bogotá, Colombia}{}{\vspace{1pt}
 \begin{itemize}
-    \item [Achievement or responsibility 1]
-    \item [Achievement or responsibility 2]
+    \item Analicé procesos operativos mediante datos, proponiendo mejoras
+    \item Desarrollé herramientas en Excel para automatización administrativa
+\end{itemize}}}
+
+\vspace{3pt}
+
+\needspace{5\baselineskip}
+\item{\cventry{2019}{Consultor Comercial}{Nike Shop Mega Sport}{Fusagasugá, Colombia}{}{\vspace{1pt}
+\begin{itemize}
+    \item Gestioné bases de datos de clientes, apoyando el seguimiento de ventas
+    \item Analicé desempeño comercial contribuyendo al cumplimiento de metas
+\end{itemize}}}
+
+\vspace{3pt}
+
+\needspace{5\baselineskip}
+\item{\cventry{2018}{Asesor Comercial}{Sub Urban Store}{Fusagasugá, Colombia}{}{\vspace{1pt}
+\begin{itemize}
+    \item Gestioné relaciones comerciales y búsqueda de nuevos clientes
 \end{itemize}}}
 
 \end{itemize}
 
 % ============================================================
-%     EDUCATION
+%     EDUCACIÓN
 % ============================================================
 
-\section{Education}
+\section{Educación}
 \vspace{1pt}
 \begin{itemize}
 
-\item{\cventry{[YYYY--YYYY]}{[Degree] in [Field]}{[Institution]}{[City, Country]}{}{\vspace{1pt}
-Thesis: ``[Thesis Title].'' [Brief description of research focus.]
-}}
+\item{\cventry{2023}{Administración de Empresas}{Fundación Universitaria del Área Andina}{Colombia}{}{}}
 
 \vspace{3pt}
 
-\item{\cventry{[YYYY--YYYY]}{[Degree] in [Field]}{[Institution]}{[City, Country]}{}{\vspace{1pt}
-[Brief description or key topics.]
-}}
+\item{\cventry{2020}{Técnico en Gestión del Talento Humano}{SENA}{Colombia}{}{}}
+
+\vspace{3pt}
+
+\item{\cventry{2017}{Técnico en Contabilización y Finanzas}{SENA}{Colombia}{}{}}
 
 \end{itemize}
 
 % ============================================================
-%     LANGUAGES
+%     CERTIFICACIONES
 % ============================================================
 
-\section{Languages}
+\section{Certificaciones}
 \vspace{1pt}
 \begin{itemize}
-\item [Language 1] (native), [Language 2] (fluent), [Language 3] (intermediate).
+\item \textbf{Power BI} -- Udemy (2024)
+\item \textbf{Diplomado en Inteligencia Artificial} -- Latinpyme (2024)
+\item \textbf{Formación en Auditoría en Salud} -- Fundación Universitaria del Área Andina (2024)
+\item \textbf{Excel Básico e Intermedio} -- Udemy (2022)
 \end{itemize}
 
 % ============================================================
-%     PUBLICATIONS (optional)
+%     IDIOMAS
 % ============================================================
 
-\section{Publications}
+\section{Idiomas}
 \vspace{1pt}
 \begin{itemize}
-\item [Author(s)] ([Year]). [Title]. [Journal/Conference]. \href{[DOI_URL]}{DOI link}
+\item Español (nativo), Inglés (básico).
 \end{itemize}
 
 % ============================================================
-%     HONORS AND AWARDS (optional)
+%     REFERENCIAS
 % ============================================================
 
-\section{Honors and Awards}
+\section{Referencias}
 \vspace{1pt}
 \begin{itemize}
-\item{\textbf{[Award Name]} -- [Event/Organization] ([Year]).}
-\end{itemize}
-
-% ============================================================
-%     REFERENCES
-% ============================================================
-
-\section{References}
-\vspace{1pt}
-\begin{itemize}
-\item{Available upon request.}
+\item{Disponibles a solicitud.}
 \end{itemize}
 
 \end{document}

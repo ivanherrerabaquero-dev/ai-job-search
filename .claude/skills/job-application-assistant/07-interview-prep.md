@@ -14,30 +14,36 @@ Keep answers to 1-2 minutes. Be specific. End with what you learned or would do 
 
 ## Ready-Made STAR Examples
 
-<!-- These are populated by /setup from your actual experience. Below are templates showing the format. -->
+<!-- Construidos a partir de los logros del CV. Los detalles cuantitativos (métricas exactas, herramientas específicas)
+deben verificarse/ampliarse antes de usarlos en una entrevista real - el CV solo da el resultado agregado. -->
 
-### 1. [PROJECT_NAME] ([SKILL_DEMONSTRATED])
-**S:** [CONTEXT - what was happening, what was the problem]
-**T:** [YOUR RESPONSIBILITY - what you specifically needed to do]
-**A:** [WHAT YOU DID - specific actions, tools, methods]
-**R:** [OUTCOME - measurable results, adoption, impact]
-**Use for:** "[QUESTION_TYPE_1]", "[QUESTION_TYPE_2]"
+### 1. Reducción del 35% en volumen de PQRS (análisis de datos + mejora de procesos)
+**S:** Como Analista de Requerimientos en Famisanar, el volumen de PQRS (peticiones, quejas, reclamos) relacionadas con servicios de salud era alto y generaba presión sobre el cumplimiento de SLA.
+**T:** Identificar las causas raíz del volumen y proponer mejoras que redujeran el número de casos sin sacrificar calidad de respuesta.
+**A:** Analicé los datos de PQRS en Excel y Power BI, construí dashboards de seguimiento por tipo de caso y área, y usé esos hallazgos para priorizar e implementar mejoras de proceso junto con las áreas involucradas.
+**R:** Reducción de aproximadamente 35% en el volumen de PQRS.
+**Use for:** "Cuéntame de una vez que usaste datos para resolver un problema", "Dame un ejemplo de mejora de procesos que hayas liderado"
 
-### 2. [PROJECT_NAME] ([SKILL_DEMONSTRATED])
-**S:** [CONTEXT]
-**T:** [YOUR RESPONSIBILITY]
-**A:** [WHAT YOU DID]
-**R:** [OUTCOME]
-**Use for:** "[QUESTION_TYPE_1]", "[QUESTION_TYPE_2]"
+### 2. Dashboards y KPI para reducir tiempos de atención (Power BI)
+**S:** El equipo necesitaba visibilidad sobre tiempos de atención y vencimientos de PQRS, que se gestionaban de forma dispersa.
+**T:** Construir una herramienta de seguimiento que permitiera monitorear KPI de forma centralizada y anticipar vencimientos.
+**A:** Diseñé y desarrollé dashboards en Power BI con los indicadores clave (tiempos de atención, vencimientos, volumen por tipo de caso), y los usé para hacer seguimiento periódico con el equipo.
+**R:** Mejora en los tiempos de atención y reducción de vencimientos.
+**Use for:** "Describe un dashboard o reporte que hayas construido", "¿Cómo usas datos para tomar decisiones?"
 
-### 3. [PROJECT_NAME] ([SKILL_DEMONSTRATED])
-**S:** [CONTEXT]
-**T:** [YOUR RESPONSIBILITY]
-**A:** [WHAT YOU DID]
-**R:** [OUTCOME]
-**Use for:** "[QUESTION_TYPE_1]", "[QUESTION_TYPE_2]"
+### 3. Priorización de tutelas (gestión bajo presión regulatoria)
+**S:** Dentro del volumen de PQRS, los casos de tutela requieren resolución oportuna por su naturaleza legal, y coexistían con el resto de la carga operativa del equipo.
+**T:** Identificar y priorizar estos casos complejos para garantizar resolución oportuna y cumplimiento normativo, sin descuidar el resto de la operación.
+**A:** Analicé el flujo de casos para separar y escalar las tutelas, coordinando con las áreas responsables para consolidar respuestas dentro de los tiempos legales.
+**R:** Resolución oportuna de los casos priorizados y cumplimiento normativo sostenido.
+**Use for:** "¿Cómo priorizas cuando todo parece urgente?", "Cuéntame de una situación con alta presión regulatoria/legal"
 
-<!-- Add more STAR examples as needed. Aim for 4-6 covering different competencies. -->
+### 4. Coordinación de equipo y cumplimiento de SLA
+**S:** Como Analista de Requerimientos, además de analizar datos, era responsable de coordinar el trabajo de auxiliares a cargo de la gestión de requerimientos.
+**T:** Asegurar que el equipo cumpliera los SLA y tiempos de respuesta establecidos.
+**A:** Supervisé la asignación y el avance del trabajo de los auxiliares, usando los dashboards de seguimiento para detectar desviaciones a tiempo y corregir el rumbo.
+**R:** Cumplimiento sostenido de SLA y tiempos de respuesta del equipo.
+**Use for:** "Cuéntame de tu experiencia liderando o coordinando un equipo", "¿Cómo aseguras que un equipo cumpla sus metas?"
 
 ## Common Tough Questions
 
