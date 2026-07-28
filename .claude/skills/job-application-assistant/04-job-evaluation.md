@@ -101,7 +101,7 @@ Does this role advance career goals and contain tasks that energize?
 - Non-task factors: liderazgo que da autonomía sobre el "cómo", cultura orientada a datos, empresa con procesos claros
 
 **Life situation alignment:** Consider personal constraints:
-- **Security**: actualmente empleado (Famisanar); la búsqueda es para mejorar posición/condiciones, no por necesidad urgente - [PENDIENTE: confirmar si esto sigue siendo así]
+- **Security**: actualmente empleado (Famisanar); la búsqueda es para mejorar posición/condiciones, no por necesidad urgente. Salario mínimo aceptable: $3.000.000 COP/mes presencial/híbrido, o $2.500.000 COP/mes 100% remoto
 - **Flexibility**: radicado en Bogotá; prefiere remoto/híbrido pero abierto a presencial en la ciudad
 - **Professional development**: prioriza roles que le den exposición a herramientas de datos más allá de Excel/Power BI (SQL, Python, otras plataformas de BI)
 

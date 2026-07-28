@@ -71,7 +71,7 @@ This repo is a job application workspace. Claude acts as a career advisor and ap
 - BI/Analítica de datos en cualquier sector regulado (seguros, banca): Sura, Bancolombia, Seguros Bolívar
 
 ### Deal-breakers
-- [PENDIENTE: define un rango salarial mínimo aceptable]
+- Salario mínimo aceptable: $3.000.000 COP/mes presencial/híbrido, o $2.500.000 COP/mes en modalidad 100% remota (teletrabajo)
 - [PENDIENTE: define si aceptas reubicación fuera de Bogotá o solo remoto/Bogotá]
 
 ## Repo Structure
